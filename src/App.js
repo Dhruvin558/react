@@ -4,20 +4,26 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <form>
+      <header><h1>Form </h1></header>
+      <label>First Name:-</label>
+      <input placeholder='enter first name' /> <br />
+
+      <label>Second Name:-</label>
+      <input placeholder='enter second name' /> <br />
+      
+      <label>Last Name:-</label>
+      <input placeholder='enter last name' /><br />
+      
+      <label>Email:- </label>
+      <input placeholder='enter email' /><br />
+      
+      <label>Password:-</label>
+      <input placeholder='enter password' type='password' /><br />
+      
+      <button>submit</button>
+      <h1></h1>
+      </form>
     </div>
   );
 }
