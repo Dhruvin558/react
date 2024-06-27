@@ -22,8 +22,10 @@ function App() {
       <input placeholder='enter password' type='password' /><br />
       
       <button>submit</button>
-      <h1></h1>
       </form>
+      <style>
+      
+      </style>
     </div>
   );
 }
